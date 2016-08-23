@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "../helpers/hacking.h"
+#include <pcap.h>
 
 void pcap_fatal(const char *failed_in, const char *errbuf)
 {
